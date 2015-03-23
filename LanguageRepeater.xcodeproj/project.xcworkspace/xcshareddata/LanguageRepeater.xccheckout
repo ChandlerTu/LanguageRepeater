@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>73A8C7BE-42BC-4118-B900-FFD944C2FDF6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>LanguageRepeater</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5BA0E3D9-E8A7-4A98-9815-46FC9B67543C</key>
+		<string>https://github.com/ChandlerTu/LanguageRepeater.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>LanguageRepeater.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5BA0E3D9-E8A7-4A98-9815-46FC9B67543C</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ChandlerTu/LanguageRepeater.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5BA0E3D9-E8A7-4A98-9815-46FC9B67543C</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5BA0E3D9-E8A7-4A98-9815-46FC9B67543C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>LanguageRepeater</string>
+		</dict>
+	</array>
+</dict>
+</plist>
