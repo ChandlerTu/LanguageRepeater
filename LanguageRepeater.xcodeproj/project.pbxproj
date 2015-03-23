@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9835693D1ABFB37D004BBB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9835693C1ABFB37D004BBB94 /* Foundation.framework */; };
+		9835693F1ABFB37D004BBB94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9835693E1ABFB37D004BBB94 /* CoreGraphics.framework */; };
+		983569411ABFB37D004BBB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983569401ABFB37D004BBB94 /* UIKit.framework */; };
+		983569471ABFB37D004BBB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 983569451ABFB37D004BBB94 /* InfoPlist.strings */; };
+		983569491ABFB37D004BBB94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 983569481ABFB37D004BBB94 /* main.m */; };
+		9835694D1ABFB37D004BBB94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9835694C1ABFB37D004BBB94 /* AppDelegate.m */; };
+		983569501ABFB37D004BBB94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9835694E1ABFB37D004BBB94 /* Main.storyboard */; };
+		983569531ABFB37D004BBB94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983569521ABFB37D004BBB94 /* ViewController.m */; };
+		983569551ABFB37D004BBB94 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 983569541ABFB37D004BBB94 /* Images.xcassets */; };
+		9835695C1ABFB37D004BBB94 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9835695B1ABFB37D004BBB94 /* XCTest.framework */; };
+		9835695D1ABFB37D004BBB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9835693C1ABFB37D004BBB94 /* Foundation.framework */; };
+		9835695E1ABFB37D004BBB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983569401ABFB37D004BBB94 /* UIKit.framework */; };
+		983569661ABFB37D004BBB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 983569641ABFB37D004BBB94 /* InfoPlist.strings */; };
+		983569681ABFB37D004BBB94 /* LanguageRepeaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 983569671ABFB37D004BBB94 /* LanguageRepeaterTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9835695F1ABFB37D004BBB94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 983569311ABFB37D004BBB94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 983569381ABFB37D004BBB94;
+			remoteInfo = LanguageRepeater;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		983569391ABFB37D004BBB94 /* LanguageRepeater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageRepeater.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9835693C1ABFB37D004BBB94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9835693E1ABFB37D004BBB94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		983569401ABFB37D004BBB94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		983569441ABFB37D004BBB94 /* LanguageRepeater-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LanguageRepeater-Info.plist"; sourceTree = "<group>"; };
+		983569461ABFB37D004BBB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		983569481ABFB37D004BBB94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9835694A1ABFB37D004BBB94 /* LanguageRepeater-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LanguageRepeater-Prefix.pch"; sourceTree = "<group>"; };
+		9835694B1ABFB37D004BBB94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9835694C1ABFB37D004BBB94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9835694F1ABFB37D004BBB94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		983569511ABFB37D004BBB94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		983569521ABFB37D004BBB94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		983569541ABFB37D004BBB94 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9835695A1ABFB37D004BBB94 /* LanguageRepeaterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LanguageRepeaterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9835695B1ABFB37D004BBB94 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		983569631ABFB37D004BBB94 /* LanguageRepeaterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LanguageRepeaterTests-Info.plist"; sourceTree = "<group>"; };
+		983569651ABFB37D004BBB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		983569671ABFB37D004BBB94 /* LanguageRepeaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageRepeaterTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		983569361ABFB37D004BBB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9835693F1ABFB37D004BBB94 /* CoreGraphics.framework in Frameworks */,
+				983569411ABFB37D004BBB94 /* UIKit.framework in Frameworks */,
+				9835693D1ABFB37D004BBB94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983569571ABFB37D004BBB94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9835695C1ABFB37D004BBB94 /* XCTest.framework in Frameworks */,
+				9835695E1ABFB37D004BBB94 /* UIKit.framework in Frameworks */,
+				9835695D1ABFB37D004BBB94 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		983569301ABFB37D004BBB94 = {
+			isa = PBXGroup;
+			children = (
+				983569421ABFB37D004BBB94 /* LanguageRepeater */,
+				983569611ABFB37D004BBB94 /* LanguageRepeaterTests */,
+				9835693B1ABFB37D004BBB94 /* Frameworks */,
+				9835693A1ABFB37D004BBB94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9835693A1ABFB37D004BBB94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				983569391ABFB37D004BBB94 /* LanguageRepeater.app */,
+				9835695A1ABFB37D004BBB94 /* LanguageRepeaterTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9835693B1ABFB37D004BBB94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9835693C1ABFB37D004BBB94 /* Foundation.framework */,
+				9835693E1ABFB37D004BBB94 /* CoreGraphics.framework */,
+				983569401ABFB37D004BBB94 /* UIKit.framework */,
+				9835695B1ABFB37D004BBB94 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		983569421ABFB37D004BBB94 /* LanguageRepeater */ = {
+			isa = PBXGroup;
+			children = (
+				9835694B1ABFB37D004BBB94 /* AppDelegate.h */,
+				9835694C1ABFB37D004BBB94 /* AppDelegate.m */,
+				9835694E1ABFB37D004BBB94 /* Main.storyboard */,
+				983569511ABFB37D004BBB94 /* ViewController.h */,
+				983569521ABFB37D004BBB94 /* ViewController.m */,
+				983569541ABFB37D004BBB94 /* Images.xcassets */,
+				983569431ABFB37D004BBB94 /* Supporting Files */,
+			);
+			path = LanguageRepeater;
+			sourceTree = "<group>";
+		};
+		983569431ABFB37D004BBB94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				983569441ABFB37D004BBB94 /* LanguageRepeater-Info.plist */,
+				983569451ABFB37D004BBB94 /* InfoPlist.strings */,
+				983569481ABFB37D004BBB94 /* main.m */,
+				9835694A1ABFB37D004BBB94 /* LanguageRepeater-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		983569611ABFB37D004BBB94 /* LanguageRepeaterTests */ = {
+			isa = PBXGroup;
+			children = (
+				983569671ABFB37D004BBB94 /* LanguageRepeaterTests.m */,
+				983569621ABFB37D004BBB94 /* Supporting Files */,
+			);
+			path = LanguageRepeaterTests;
+			sourceTree = "<group>";
+		};
+		983569621ABFB37D004BBB94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				983569631ABFB37D004BBB94 /* LanguageRepeaterTests-Info.plist */,
+				983569641ABFB37D004BBB94 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		983569381ABFB37D004BBB94 /* LanguageRepeater */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9835696B1ABFB37E004BBB94 /* Build configuration list for PBXNativeTarget "LanguageRepeater" */;
+			buildPhases = (
+				983569351ABFB37D004BBB94 /* Sources */,
+				983569361ABFB37D004BBB94 /* Frameworks */,
+				983569371ABFB37D004BBB94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LanguageRepeater;
+			productName = LanguageRepeater;
+			productReference = 983569391ABFB37D004BBB94 /* LanguageRepeater.app */;
+			productType = "com.apple.product-type.application";
+		};
+		983569591ABFB37D004BBB94 /* LanguageRepeaterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9835696E1ABFB37E004BBB94 /* Build configuration list for PBXNativeTarget "LanguageRepeaterTests" */;
+			buildPhases = (
+				983569561ABFB37D004BBB94 /* Sources */,
+				983569571ABFB37D004BBB94 /* Frameworks */,
+				983569581ABFB37D004BBB94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				983569601ABFB37D004BBB94 /* PBXTargetDependency */,
+			);
+			name = LanguageRepeaterTests;
+			productName = LanguageRepeaterTests;
+			productReference = 9835695A1ABFB37D004BBB94 /* LanguageRepeaterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		983569311ABFB37D004BBB94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Chandler Tu";
+				TargetAttributes = {
+					983569591ABFB37D004BBB94 = {
+						TestTargetID = 983569381ABFB37D004BBB94;
+					};
+				};
+			};
+			buildConfigurationList = 983569341ABFB37D004BBB94 /* Build configuration list for PBXProject "LanguageRepeater" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 983569301ABFB37D004BBB94;
+			productRefGroup = 9835693A1ABFB37D004BBB94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				983569381ABFB37D004BBB94 /* LanguageRepeater */,
+				983569591ABFB37D004BBB94 /* LanguageRepeaterTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		983569371ABFB37D004BBB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983569551ABFB37D004BBB94 /* Images.xcassets in Resources */,
+				983569471ABFB37D004BBB94 /* InfoPlist.strings in Resources */,
+				983569501ABFB37D004BBB94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983569581ABFB37D004BBB94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983569661ABFB37D004BBB94 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		983569351ABFB37D004BBB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983569531ABFB37D004BBB94 /* ViewController.m in Sources */,
+				9835694D1ABFB37D004BBB94 /* AppDelegate.m in Sources */,
+				983569491ABFB37D004BBB94 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		983569561ABFB37D004BBB94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				983569681ABFB37D004BBB94 /* LanguageRepeaterTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		983569601ABFB37D004BBB94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 983569381ABFB37D004BBB94 /* LanguageRepeater */;
+			targetProxy = 9835695F1ABFB37D004BBB94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		983569451ABFB37D004BBB94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983569461ABFB37D004BBB94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9835694E1ABFB37D004BBB94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9835694F1ABFB37D004BBB94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		983569641ABFB37D004BBB94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				983569651ABFB37D004BBB94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		983569691ABFB37E004BBB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9835696A1ABFB37E004BBB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9835696C1ABFB37E004BBB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LanguageRepeater/LanguageRepeater-Prefix.pch";
+				INFOPLIST_FILE = "LanguageRepeater/LanguageRepeater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9835696D1ABFB37E004BBB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LanguageRepeater/LanguageRepeater-Prefix.pch";
+				INFOPLIST_FILE = "LanguageRepeater/LanguageRepeater-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9835696F1ABFB37E004BBB94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LanguageRepeater.app/LanguageRepeater";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LanguageRepeater/LanguageRepeater-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "LanguageRepeaterTests/LanguageRepeaterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		983569701ABFB37E004BBB94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/LanguageRepeater.app/LanguageRepeater";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LanguageRepeater/LanguageRepeater-Prefix.pch";
+				INFOPLIST_FILE = "LanguageRepeaterTests/LanguageRepeaterTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		983569341ABFB37D004BBB94 /* Build configuration list for PBXProject "LanguageRepeater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				983569691ABFB37E004BBB94 /* Debug */,
+				9835696A1ABFB37E004BBB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9835696B1ABFB37E004BBB94 /* Build configuration list for PBXNativeTarget "LanguageRepeater" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9835696C1ABFB37E004BBB94 /* Debug */,
+				9835696D1ABFB37E004BBB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9835696E1ABFB37E004BBB94 /* Build configuration list for PBXNativeTarget "LanguageRepeaterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9835696F1ABFB37E004BBB94 /* Debug */,
+				983569701ABFB37E004BBB94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 983569311ABFB37D004BBB94 /* Project object */;
+}
