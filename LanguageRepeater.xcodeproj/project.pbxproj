@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		982A4AF51AC13C8E007F94C4 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 982A4AF41AC13C8E007F94C4 /* TableViewController.m */; };
 		9835693D1ABFB37D004BBB94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9835693C1ABFB37D004BBB94 /* Foundation.framework */; };
 		9835693F1ABFB37D004BBB94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9835693E1ABFB37D004BBB94 /* CoreGraphics.framework */; };
 		983569411ABFB37D004BBB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983569401ABFB37D004BBB94 /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		9835695E1ABFB37D004BBB94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 983569401ABFB37D004BBB94 /* UIKit.framework */; };
 		983569661ABFB37D004BBB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 983569641ABFB37D004BBB94 /* InfoPlist.strings */; };
 		983569681ABFB37D004BBB94 /* LanguageRepeaterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 983569671ABFB37D004BBB94 /* LanguageRepeaterTests.m */; };
+		9835D28C1ABFB85F0087545B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9835D28B1ABFB85F0087545B /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		982A4AF31AC13C8E007F94C4 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		982A4AF41AC13C8E007F94C4 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
 		983569391ABFB37D004BBB94 /* LanguageRepeater.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LanguageRepeater.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9835693C1ABFB37D004BBB94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9835693E1ABFB37D004BBB94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,7 @@
 		983569631ABFB37D004BBB94 /* LanguageRepeaterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LanguageRepeaterTests-Info.plist"; sourceTree = "<group>"; };
 		983569651ABFB37D004BBB94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		983569671ABFB37D004BBB94 /* LanguageRepeaterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LanguageRepeaterTests.m; sourceTree = "<group>"; };
+		9835D28B1ABFB85F0087545B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9835D28C1ABFB85F0087545B /* AVFoundation.framework in Frameworks */,
 				9835693F1ABFB37D004BBB94 /* CoreGraphics.framework in Frameworks */,
 				983569411ABFB37D004BBB94 /* UIKit.framework in Frameworks */,
 				9835693D1ABFB37D004BBB94 /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		9835693B1ABFB37D004BBB94 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9835D28B1ABFB85F0087545B /* AVFoundation.framework */,
 				9835693C1ABFB37D004BBB94 /* Foundation.framework */,
 				9835693E1ABFB37D004BBB94 /* CoreGraphics.framework */,
 				983569401ABFB37D004BBB94 /* UIKit.framework */,
@@ -117,6 +124,8 @@
 				9835694E1ABFB37D004BBB94 /* Main.storyboard */,
 				983569511ABFB37D004BBB94 /* ViewController.h */,
 				983569521ABFB37D004BBB94 /* ViewController.m */,
+				982A4AF31AC13C8E007F94C4 /* TableViewController.h */,
+				982A4AF41AC13C8E007F94C4 /* TableViewController.m */,
 				983569541ABFB37D004BBB94 /* Images.xcassets */,
 				983569431ABFB37D004BBB94 /* Supporting Files */,
 			);
@@ -269,6 +278,7 @@
 				983569531ABFB37D004BBB94 /* ViewController.m in Sources */,
 				9835694D1ABFB37D004BBB94 /* AppDelegate.m in Sources */,
 				983569491ABFB37D004BBB94 /* main.m in Sources */,
+				982A4AF51AC13C8E007F94C4 /* TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

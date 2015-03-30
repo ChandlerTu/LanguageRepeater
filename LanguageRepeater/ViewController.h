@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <AVAudioPlayerDelegate, AVAudioRecorderDelegate>
+
+- (IBAction)unwindToRepeater:(UIStoryboardSegue *)segue;
 
 @end
